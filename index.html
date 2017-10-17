@@ -9,39 +9,40 @@
     <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="POST" enctype="multipart/form-data">
   <fieldset>
     <legend><strong>My Info</strong></legend>
-     <p>
-            <label>First Name:</label>
-            <input type="text" name="first_name_field">
+     	  <p>
+            <label>First Name:
+            <input type="text" name="first_name_field" placeholder="First Name"></label>
           </p>
           <p>
-            <label>Last Name:</label>
-            <input type="text" name="last_name_field">
+            <label>Last Name:
+            <input type="text" name="last_name_field" placeholder="Last Name"></label>
           </p>
           <p>
-            <label>Phone Number:</label>
-            <input type="text" name="phone_field">
+            <label>Phone Number:
+            <input type="text" name="phone_field" placeholder="xxx-xxx-xxxx"></label>
           </p>
           <p>
-            <label>Email Address:</label>
-            <input type="email" name="email_field">
+            <label>Email Address:
+            <input type="email" name="email_field" placeholder="example@demonstrate.com"></label>
           </p>
-    <p>
+          <p>
 		<label>Gender:</label>
 		<input type="radio" checked="checked" name="gender_field" value="male">
 		<label>Male:</label>
-        <input type="radio" name="gender_field" value="female">
+                <input type="radio" name="gender_field" value="female">
 		<label>Female:</label>
-    </p>
-		<label>Age:</label> 
+          </p>
+	  <p>	<label>Age:</label> 
 		<select name="age_field">
 		  <option value="under 18">under 18</option>
-          <option value="18-24">18-24</option>
-          <option value="25-34">25-34</option>
-          <option value="35-44">35-44</option>
-          <option value="45-54">45-54</option>
-          <option value="55-64">55-64</option>
-          <option value="65 and over">65 and over</option>
-        </select>
+          	  <option value="18-24">18-24</option>
+         	  <option value="25-34">25-34</option>
+         	  <option value="35-44">35-44</option>
+        	  <option value="45-54">45-54</option>
+        	  <option value="55-64">55-64</option>
+        	  <option value="65 and over">65 and over</option>
+        	</select>
+	  </p>
   </fieldset>
   <fieldset>
   	<legend><strong>My Availability</strong></legend>
@@ -57,7 +58,7 @@
 		<p><input type="checkbox" name="available_field[]" value="Saturday"> Saturday</p>
 		<p>Any Comments?:</p>
   	   <p>
-  	     <textarea name="comments_field" rows="10" cols="50">
+  	     <textarea name="comments_field" rows="6" cols="50" placeholder="Enter comments here.">
   	     </textarea>
   	   </p>
  </fieldset>
@@ -65,5 +66,4 @@
       <p><input type="submit" value="Send Me!"></p>
  </form>
 </body>
-
 </html>
